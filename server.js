@@ -31,7 +31,7 @@ var express = require('express'),
     cookieName: 'session',
     secret: 'abhikeks1026',
     duration: 1000 * 60 * 30,
-    activeDuration: 1000 * 60 * 5
+    activeDuration: 1000 * 60 * 15
   }));
 
   app.use(morgan('dev'));
